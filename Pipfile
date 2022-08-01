@@ -4,6 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+"3.1" = "*"
+django = "==3.1"
+django-cassandra-engine = "*"
+djangorestframework = "*"
+cassandra-driver = "*"
+pyyaml = "*"
+djongo = "*"
+pymongo = "==3.12.1"
+dnspython = "*"
 
 [requires]
 python_version = "3.9"
